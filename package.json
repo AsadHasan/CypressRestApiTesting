@@ -1,0 +1,31 @@
+{
+  "name": "cypressapitesting",
+  "version": "1.0.0",
+  "description": "Postcodes API testing via Cypress",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "REST",
+    "API",
+    "Automation",
+    "Testing"
+  ],
+  "author": "Asad Hasan",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.0",
+    "cypress": "^3.3.1",
+    "prettier": "^1.18.2",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-sonarts": "^1.9.0",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0"
+  },
+  "dependencies": {
+    "ts-loader": "^6.0.2"
+  }
+}

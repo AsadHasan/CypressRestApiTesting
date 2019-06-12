@@ -1,0 +1,7 @@
+.git
+.sonarlint
+.coverage
+node_modules
+cypress/screenshots
+cypress/videos
+cypress/support
