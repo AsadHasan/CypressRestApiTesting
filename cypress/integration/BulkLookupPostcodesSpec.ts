@@ -8,6 +8,8 @@ describe("Bulk lookup of postcodes", () => {
     cy.request(method, "postcodes", body).then(response => {
       const responseBody = response.body.result;
 
+      expect(responseBody.length).to.be.equal(3);
+
       expect(responseBody[0].result).to.have.property(
         "parish",
         "Brightwell Baldwin"
